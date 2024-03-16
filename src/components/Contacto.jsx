@@ -32,10 +32,10 @@ const Contacto = () => {
 
   return (
     <>
-     <p className='flex items-center justify-center text-3xl mt-5'> Contácteme </p>
-    <form id='CONTACTO' className=''  ref={form} onSubmit={sendEmail}>
+     <p  id='CONTACTO' className='flex items-center justify-center text-3xl '> Contácteme </p>
+    <form   ref={form} onSubmit={sendEmail}>
         
-      <div className='flex flex-col items-center gap-3'>
+      <div className='flex flex-col  items-center gap-3 mt-24'>
         <label className='text-2xl mt-5'>Nombre</label>
         <input className='border-blue-600 border-4 ml-3 w-80' type="text" name="user_name" required/>
      
@@ -45,10 +45,11 @@ const Contacto = () => {
         <label  className=' text-2xl'>Mensaje</label>
         <textarea className='border-blue-600 border-4 ml-3 md:w-96 h-32  w-80' name="message"  style={{ resize: 'none' }} />
       
-        <input className=' rounded-xl mt-5 cursor-pointer hover:bg-sky-600 border-blue-600 border-2 w-40 md:ml-10 ' type="submit" value="Enviar Mensaje" />
+        <input className=' rounded-xl  cursor-pointer hover:bg-sky-600 border-blue-600 border-2 w-40 ml-5 md:ml-10 ' type="submit" value="Enviar Mensaje" />
       </div>
       {messageSent && <p className='flex justify-center  mt-1'>El mensaje se ha enviado ✔</p>}
     </form>
+    <div className='mb-96'></div>
     </>
   );
 }

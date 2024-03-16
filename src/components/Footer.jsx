@@ -7,7 +7,7 @@ const Footer = () => {
 
   return (
     <>
- 
+    <div className='mt-20'></div>
 
     &copy; {año} Desarrollador Facundo Betancur
     </>
