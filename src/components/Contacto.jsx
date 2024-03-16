@@ -32,8 +32,9 @@ const Contacto = () => {
 
   return (
     <>
-     <p  id='CONTACTO' className='flex items-center justify-center text-3xl '> Contácteme </p>
-    <form   ref={form} onSubmit={sendEmail}>
+     <div id='CONTACTO'>
+     <p className='flex items-center justify-center text-3xl '> Contácteme </p>
+      <form   ref={form} onSubmit={sendEmail}>
         
       <div className='flex flex-col  items-center gap-3 mt-24'>
         <label className='text-2xl mt-5'>Nombre</label>
@@ -50,6 +51,7 @@ const Contacto = () => {
       {messageSent && <p className='flex justify-center  mt-1'>El mensaje se ha enviado ✔</p>}
     </form>
     <div className='mb-96'></div>
+    </div>
     </>
   );
 }
