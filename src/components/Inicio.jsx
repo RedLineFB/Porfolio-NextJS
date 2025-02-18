@@ -18,10 +18,9 @@ const Inicio = () => {
       <div>
         <div className='text-lg mt-5 '>
           <div className='max-[767px]:w-full '>
-            Me llamo <b>Facundo Betancur</b>. Estoy graduado de 
-            <b> Técnico Superior en Programación. </b>
-            <b>Actualmente</b> trabajo como desarrollador Full-stack freelance. Trabajé como desarrollador Front-end y programador en Visual Basic freelance,
-            también realicé proyectos en Python 3 de OSINT(Open source intelligence). 
+            Hola. Me llamo <b>Facundo Betancur</b>. Estoy graduado de 
+            <b> Técnico Superior en Programación en Teclab,</b> y soy desarrollador <b>front-end</b>.
+            
             </div>
        </div>
        
@@ -53,12 +52,16 @@ const Inicio = () => {
               </Link>
             </div>
           </div>
-
-          <div  className='ml-20 mt-10 flex text-center items-center max-[1023px]:hidden '> 
-          <Link className={`${styles.button} flex justify-center items-center hover:text-white`} href="./CVFacundoBetancur.pdf" download={''} > CV </Link>  
-          </div>
           
-          <div className='lg:hidden max-[767px]:w-2/4 max-[767px]:mt-8 max-[1023px]:w-2/4' >
+         {/* 
+          <div className='ml-20 mt-10 flex text-center items-center max-[1023px]:hidden '> 
+            <Link className={`${styles.button} flex justify-center items-center hover:text-white`} href="./CVFacundoBetancur.pdf" download={''}> 
+              CV 
+            </Link>  
+          </div> 
+          */}
+          
+          <div className='lg:hidden max-[767px]:w-2/4 max-[767px]:mt-8 max-[1023px]:w-1/4' >
             <Image src={FacundoBetancurResponsive}  alt="Facundo Betancur" className='ml-20'/>
           </div>
         
@@ -66,7 +69,7 @@ const Inicio = () => {
         
        </div> 
         
-    <div className='max-[1023px]:hidden w-full'>
+    <div className='max-[1023px]:hidden w-2/4'>
         <Image src={FacundoBetancur}  alt="Facundo Betancur"  />
     </div>
   

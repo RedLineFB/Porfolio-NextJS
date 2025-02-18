@@ -7,7 +7,6 @@ import { FaReact } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import { FaNode } from "react-icons/fa";
 import { TbBrandSocketIo } from "react-icons/tb";
-import { AiOutlineConsoleSql } from "react-icons/ai";
 import Signore from '@/images/Signore.png';
 import Link from "next/link";
 import Webscraper from "@/images/Webscraper.png";
@@ -20,18 +19,19 @@ import GeoIp from '@/images/Geo-IP.png';
 import PhoneOSINT from '@/images/PhoneOSINT.png';
 
 
-
 const Portfolio = () => {
   return (
     <>
       <div id='PORTFOLIO' className='w-4/5 max-[1000px]:ml-0 ml-20 max-[1000px]:w-full  mt-5 font-serif' >
-        <h2 className='text-2xl'> <b> Trabajo actual</b></h2>
-        <div className='mt-3 '>
-        <p> Estoy trabajando como Full-stack freelance en un proyecto de portero digital para condominios. </p>
-        <div className='grid grid-cols-1 gap-3 '>
-            <div className="flex items-center mt-2">
-              <IoLogoVercel /> NextJS14
-            </div>
+       
+        <h2 className='mt-8 text-2xl'> <b> Todos mis proyectos</b></h2>
+        <p className='mt-5'> TimbreWeb, como su nombre lo indica es un timbre diseñado para poder usarse en edificios.
+          En mi LinkedIn muestro el video de como funciona. 
+        </p>
+        <Link className='text-blue-700 hover:text-black text-xl' href='https://www.linkedin.com/feed/update/urn:li:activity:7297370305231032320/' target='_blank' rel='noopener noreferrer'>LinkedIn</Link>  
+        
+       
+        <div className='grid grid-cols-1 gap-3 mt-4 '>
             <div className="flex items-center ">
               <FaReact /> ReactJS18
             </div>
@@ -44,15 +44,7 @@ const Portfolio = () => {
             <div className="flex items-center">
               <TbBrandSocketIo /> Socket.io
             </div>
-            <div className="flex items-center">
-              <AiOutlineConsoleSql /> SQL
-            </div>
-
-        </div>
-         
-         </div>
-       
-        <h2 className='mt-8 text-2xl'> <b> Trabajos realizados</b></h2>
+          </div>
         
         <div className='mt-5 '>
             <p><b>Portfolio: </b>Desarrollo Front-end, que se
