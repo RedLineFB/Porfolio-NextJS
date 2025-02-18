@@ -26,9 +26,12 @@ const Inicio = () => {
        
        <div className='flex'>
           <div className='mt-10 max-[1023px]:ml-16 max-[767px]:ml-0' >
+              {/*
               <div  className='  flex text-center items-center lg:hidden max-[767px]:w-10 max-[1023px]:ml-16 max-[767px]:ml-0'> 
                 <Link className={`${styles.button} flex justify-center items-center `} href="./CVFacundoBetancur.pdf" download={''}> CV </Link>  
               </div>
+             */}
+             
              <div className='max-[1000px]:flex max-[767px]:flex-col mt-5 max-[999px]:mt-8'>
               <Link className='ml-5 max-[767px]:mb-2 '  href='https://www.linkedin.com/in/facundo-betancur-33659a124/' target='_blank'  rel='noopener noreferrer'> 
                 <button className='rounded-2xl text-base w-16  '>
