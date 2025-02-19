@@ -16,7 +16,7 @@ const Habilidades = () => {
   return (
     <>
       <div id='HABILIDADES' className='mt-5'>
-        <p className='flex justify-center items-center text-3xl'> Habilidades</p>
+        
           <div className=' grid md:grid-cols-3 grid-cols-2 gap-6 mt-7 md:ml-28 ml-10'>
         
           <Image className='w-2/4 hover:scale-105 transition-all ' src={NextJS}  alt="NextJS" />
