@@ -24,8 +24,8 @@ const Portfolio = () => {
     <>
       <div id='PORTFOLIO' className='w-4/5 max-[1000px]:ml-0 ml-20 max-[1000px]:w-full  mt-5 font-serif' >
        
-        
-        <p className='mt-5'> <b>TimbreWeb: </b> Como su nombre lo indica es un timbre diseñado para poder usarse en edificios.
+        <h2 className='flex items-center justify-center text-3xl '>PORTFOLIO</h2>
+        <p className='mt-7'> <b>TimbreWeb: </b> Como su nombre lo indica es un timbre diseñado para poder usarse en edificios.
           En mi LinkedIn muestro el video de como funciona. 
         </p>
         <Link className='text-blue-700 hover:text-black text-xl' href='https://www.linkedin.com/feed/update/urn:li:activity:7297370305231032320/' target='_blank' rel='noopener noreferrer'>LinkedIn</Link>  
